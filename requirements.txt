@@ -1,3 +1,6 @@
 Pillow==9.4.0
 pandas==1.5.3
-st-gsheets-connection==0.0.3
+# st-gsheets-connection==0.0.3
+st-gsheets-connection
+
+# https://github.com/streamlit/gsheets-connection/blob/main/setup.py
