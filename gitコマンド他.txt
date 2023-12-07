@@ -1,0 +1,15 @@
+git config --global user.name "kojicm26"
+
+git config --global user.email "ko.ji.1101050@gmail.com"
+
+git config --global --list
+
+git init
+
+git add -A
+
+git status
+
+$ sudo chown -R username:groupname /var/www/html/sample_homepage
+
+$ sudo chown -R kojicm26 /var/www/html/sample_homepage
