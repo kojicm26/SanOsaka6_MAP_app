@@ -1,3 +1,6 @@
+#サプーのYoutube動画「【超簡単Webアプリ】streamlitでWebアプリを最速で作ってネット公開！〜 プログラミング初心者向け 〜」
+https://youtu.be/4nsTce1Oce8?si=o_aC7iZ6vrWB7PBn&t=1716
+
 git config --global user.name "kojicm26"
 
 git config --global user.email "ko.ji.1101050@gmail.com"
@@ -6,9 +9,34 @@ git config --global --list
 
 git init
 
-git add -A
+
+#add　→　commit　→　push
+
+
+git add .
 
 git status
+
+git commit -m "first commit"
+
+#コミット不要なファイルのリスト用ファイル
+git add .gitignore
+
+git remote add origin https://github.com/kojicm26/SanOsaka6_MAP_app.git
+
+git push -u origin main
+
+
+
+#GITのリポジトリ情報ページ
+https://github.com/kojicm26/SanOsaka6_MAP_app
+
+#GITのリポジトリ「SanOsaka6_MAP_app」のulr
+https://github.com/kojicm26/SanOsaka6_MAP_app.git
+
+
+
+
 
 $ sudo chown -R username:groupname /var/www/html/sample_homepage
 
