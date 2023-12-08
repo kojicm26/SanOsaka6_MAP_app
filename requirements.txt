@@ -7,8 +7,10 @@ pandas==1.5.3
 
 git+https://github.com/streamlit/gsheets-connection
 st-gsheets-connection==0.0.3
+st-gsheets-connection @ https://github.com/streamlit/gsheets-connection
 # st-gsheets-connection
 streamlit_gsheets
+streamlit_gsheets @ https://github.com/streamlit/gsheets-connection
 
 # https://github.com/streamlit/gsheets-connection/blob/main/setup.py
 # https://pypi.org/project/st-gsheets-connection/
