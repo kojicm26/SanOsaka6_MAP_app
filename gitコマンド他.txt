@@ -19,7 +19,7 @@ git add ./requirements.txt
 git status
 
 git commit -m "first commit"
-git commit -m "20231208-2"
+git commit -m "20231208-8"
 
 #コミット不要なファイルのリスト用ファイル
 git add .gitignore
@@ -45,3 +45,6 @@ https://github.com/kojicm26/SanOsaka6_MAP_app.git
 $ sudo chown -R username:groupname /var/www/html/sample_homepage
 
 $ sudo chown -R kojicm26 /var/www/html/sample_homepage
+
+# https://github.com/streamlit/gsheets-connection/blob/main/setup.py
+# https://pypi.org/project/st-gsheets-connection/
