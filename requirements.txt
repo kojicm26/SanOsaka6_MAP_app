@@ -6,9 +6,9 @@ Pillow @ file:///C:/b/abs_153xikw91n/croot/pillow_1695134603563/work
 pandas==1.5.3
 
 
-streamlit_gsheets
-# st-gsheets-connection==0.0.3
+st-gsheets-connection==0.0.3
 # st-gsheets-connection
+streamlit_gsheets
 
 # https://github.com/streamlit/gsheets-connection/blob/main/setup.py
 # https://pypi.org/project/st-gsheets-connection/

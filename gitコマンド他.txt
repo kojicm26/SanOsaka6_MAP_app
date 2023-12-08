@@ -10,14 +10,16 @@ git config --global --list
 git init
 
 
-#add　→　commit　→　push
+#gitにデプロイする流れ　add　→　commit　→　push
 
 
 git add .
+git add ./requirements.txt
 
 git status
 
 git commit -m "first commit"
+git commit -m "20231208-2"
 
 #コミット不要なファイルのリスト用ファイル
 git add .gitignore
@@ -26,6 +28,8 @@ git remote add origin https://github.com/kojicm26/SanOsaka6_MAP_app.git
 
 git push -u origin main
 
+# gitのremote URLを確認する
+git remote -v
 
 
 #GITのリポジトリ情報ページ
