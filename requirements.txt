@@ -1,14 +1,10 @@
+streamlit==1.22
+git+https://github.com/streamlit/gsheets-connection
+
+
 Pillow==9.4.0
 
 pandas==1.5.3
 
-https://github.com/streamlit/gsheets-connection
-git+https://github.com/streamlit/gsheets-connection
-# https://discuss.streamlit.io/t/gsheets-connection/47814/2
-st-gsheets-connection==0.0.3
-st-gsheets-connection
 
-streamlit_gsheets
 
-# https://github.com/streamlit/gsheets-connection/blob/main/setup.py
-# https://pypi.org/project/st-gsheets-connection/
