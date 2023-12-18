@@ -15,11 +15,12 @@ git init
 
 git add .
 git add ./requirements.txt
+git add ./main_app.py
 
 git status
 
 git commit -m "first commit"
-git commit -m "20231208-8"
+git commit -m "20231218-12"
 
 #コミット不要なファイルのリスト用ファイル
 git add .gitignore
