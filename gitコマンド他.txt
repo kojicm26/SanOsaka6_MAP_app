@@ -21,7 +21,7 @@ git status
 
 git commit -m "first commit"
 git commit -m "20231218-12"
-git commit -m "osaka20231219-01"
+git commit -m "osaka20231219-02"
 
 #コミット不要なファイルのリスト用ファイル
 git add .gitignore
@@ -39,6 +39,7 @@ echo "Anaconda Powershell Prompt.lnk" >> .gitignore
 echo "gitコマンド他.txt" >> .gitignore
 echo "streamlit run webapp.py.txt" >> .gitignore
 echo ".ipynb_checkpoints" >> .gitignore
+echo "git\343\202\263\343\203\236\343\203\263\343\203\211\344\273\226.txt" >> .gitignore
 
 
 ローカルに残しつつgit管理から除外
