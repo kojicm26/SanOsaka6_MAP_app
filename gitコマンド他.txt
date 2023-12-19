@@ -21,6 +21,7 @@ git status
 
 git commit -m "first commit"
 git commit -m "20231218-12"
+git commit -m "osaka20231218-01"
 
 #コミット不要なファイルのリスト用ファイル
 git add .gitignore
@@ -31,6 +32,25 @@ git push -u origin main
 
 # gitのremote URLを確認する
 git remote -v
+
+.gitignoreの作成
+echo "test2.txt" >> .gitignore # サンプル
+echo "Anaconda Powershell Prompt.lnk" >> .gitignore
+echo "gitコマンド他.txt" >> .gitignore
+echo "streamlit run webapp.py.txt" >> .gitignore
+echo ".ipynb_checkpoints" >> .gitignore
+
+
+ローカルに残しつつgit管理から除外
+git rm --cached gitコマンド他.txt
+git rm --cached pages/streamlit_app.ipynb
+git rm --cached Anaconda Powershell Prompt.lnk # 「 」スペースはgitでは認識しない？
+git rm --cached -r .ipynb_checkpoints # フォルダ
+
+
+削除したいフォルダ・ファイルをリポジトリから削除する
+git rm --cached -r 削除したいディレクトリ
+git rm --cached ファイル名
 
 
 #GITのリポジトリ情報ページ

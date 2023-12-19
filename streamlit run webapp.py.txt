@@ -1,0 +1,14 @@
+streamlit run ./main_app.py
+
+streamlit run ./gmap_search.py
+
+streamlit run ./gmapapp.py
+
+streamlit run ./webapp.py
+
+
+
+
+
+streamlit run ./webapp.py
+streamlit run ./webapp.py
